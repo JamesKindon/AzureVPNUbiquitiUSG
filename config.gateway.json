@@ -1,0 +1,14 @@
+{
+    "system": {
+         "task-scheduler": {
+              "task": {
+                   "reconfigvpn": {
+                        "executable": {
+                             "path": "/config/scripts/reconfigvpn.sh"
+                        },
+                        "interval": "30m"
+                   }
+              }
+         }
+    }
+}
